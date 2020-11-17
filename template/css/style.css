@@ -1,0 +1,928 @@
+body{
+    margin: auto;
+    padding: 0;
+}
+.top{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+}
+.container{
+    width: 100%;
+    height: 2250px;
+    background-color: rgba(233, 231, 232, 0.644);
+    position: relative;
+}
+.container-left{
+    width: 50%;
+    height: 2260px;
+    position: absolute;
+    padding-left: 100px;
+    margin-top: 50px;
+}
+.row-member{
+    width: 80%;
+    height: 230px;
+    background-color: white;
+    padding-left: 10px;
+    padding-top: 3px;
+    border-radius: 5px;
+}
+.row-member h1{
+    font-size: 22px;
+}
+.row-member-p{
+    font-size: 18px;
+    color: gray;
+}
+.btn-log-in{
+    border-radius: 5px;
+    background-color: rgb(238, 102, 53);
+    border: rgb(236, 65, 3);
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 12px 18px;
+}
+.row-special-information{
+    height: 560px;
+    width: 80%;
+    margin-top: 50px;
+}
+.information-h3{
+    font-size: 24px;
+    font-weight: bold;
+}
+span{color: red;}
+.information-p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.number{
+    background-color: white;
+    width: 45%;
+    height: 50px;
+    margin-top: -5px;
+}
+.number-p{
+    font-size: 16px;
+    padding: 15px;  
+}
+.information-h4{
+    font-size: 18px;
+}
+.time{
+    width: 100%;
+    height: 140px;
+    margin-bottom: 30px;
+}
+.time-left{
+    width:calc(50% - 10px);
+    background-color:white;
+    float: left;
+    height: 140px;
+    border-radius: 5px;
+}
+.btn-green{
+    width: 40%;
+    height: 5px;
+    background-color: greenyellow;
+    border: greenyellow;
+    border-radius: 3px;
+    margin: 15px;
+    margin-bottom: -20px;
+}
+.btn-oranges{
+    width: 40%;
+    height: 5px;
+    background-color: orange;
+    border: orange;
+    border-radius: 3px;
+    margin: 15px;
+    margin-bottom: -20px;
+}
+.check-in{
+    font-size: 18px;
+    margin-bottom: -20px;
+    padding-left: 15px;
+    color: grey;
+}
+.date-check-in{
+    font-size: 28px;
+    margin-bottom: -10px;
+    padding-left: 15px;
+}
+.received-date{
+    font-size: 16px;
+    padding-left: 15px;
+    color: grey;
+}
+.check{
+    font-size: 18px;
+    margin-bottom: -20px;
+    padding-left: 15px;
+    color: grey;
+}
+.pay-day{
+    font-size: 28px;
+    margin-bottom: -10px;
+    padding-left: 15px;
+}
+.date-check{
+    font-size: 16px;
+    padding-left: 15px;
+    color: grey;
+}
+.time-right{
+    width:calc(50% - 10px);
+    background-color: white;
+    float: left;
+    height: 140px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+.lable{
+    font-size: 16px;
+    font-weight: bold;
+}
+.row-your-information{
+    height: 600px;
+    width: 80%;
+}
+.your-information-p{
+    color: gray;
+}
+.input-name{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0,0,0,.07)!important;
+    border: gray;
+    box-shadow: inset 0 1px 2px 0 rgba(0,0,0,.15)!important;
+    border: none;
+    border-radius: 5px;
+}
+.input-address{
+    width: 100%;
+    height: 160px;
+    margin-top: 30px;
+}
+.address-left{
+    width: calc(50% - 5px);
+    float: left;
+    height: 160px;
+}
+.information-sdt{
+    width: 32%;
+    height: 52px;
+    float: left;
+    box-shadow: inset 0 1px 2px 0 rgba(0,0,0,.15)!important;
+    background-color: rgba(0,0,0,.07)!important;
+    border-right: 1px solid  rgba(0,0,0,.07);
+}
+.information-sdt img{
+    width: 25%;
+    margin-top: 18px;
+    margin-left: 15px;
+}
+.information-span{
+    color: black;
+    font-weight: bold;
+    margin-left: 2px;
+    margin-top: -10px;
+    font-size: 18px;
+}
+.address-right{
+    width: calc(50% - 5px);
+    float: left;
+    height: 160px;
+    margin-left: 10px;
+}
+.input-numner{
+    width: calc(70% - 10px);
+    height: 50px;
+    box-shadow: inset 0 1px 2px 0 rgba(0,0,0,.15)!important;
+    background-color: rgba(0,0,0,.07)!important;
+    border: none;
+    margin-left: 31.9%;
+    float: left;
+    margin-top: -51.5px;
+    border-left: 1px solid  rgba(0,0,0,.07);
+}
+.input-email{
+    width: calc(100% - 10px);
+    height: 50px;
+    box-shadow: inset 0 1px 2px 0 rgba(0,0,0,.15)!important;
+    background-color: rgba(0,0,0,.07)!important;
+    border: none;
+    border-radius: 5px;
+}
+.information-select{
+    width: 50%;
+    height: 50px;
+    background-color: white;
+    border: gray;
+    box-shadow: inset 0 1px 2px 0 rgba(0,0,0,.15)!important;
+    font-size: 16px;
+    color: gray;
+    line-height: 30px;
+    padding-left: 20px;
+}
+option{
+    padding-top: 30px;
+}
+.check-box{
+    padding: 8px 8px;
+    border: 3px solid orangered;
+    margin-top: 30px;
+}
+.check-p{
+    margin-left: 40px;
+    margin-top: -20px;
+}
+.row-more-information{
+    width: 80%;
+    height: 190px;
+}
+.row-promotion{
+    width: 80%;
+    height: 460px;
+}
+.input-promotion{
+    width: 97%;
+    height: 50px;
+    background-color: honeydew;
+    border: gray;
+    box-shadow: inset 0 1px 2px 0 rgba(0,0,0,.15)!important;
+    background-color: rgba(0,0,0,.07)!important;
+    border: none;
+    border-radius: 5px;
+    padding-left: 15px;
+}
+.btn-promotion{
+    padding: 16px 32px;
+    border-radius: 5px;
+    border: grey;
+    margin-top: 30px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+    background-color: rgb(221, 221, 221);
+}
+.lable-promotion{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 40px;
+}
+.btn-pay{
+    padding: 18px 36px;
+    border-radius: 5px;
+    background-color: rgb(238, 102, 53);
+    border: rgb(236, 65, 3);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 50px;
+}
+.btn-pay:hover{
+    background-color: rgb(238, 110, 64);
+}
+.footer{
+    background-color: white;
+    width: 100%;
+    height: 60px;
+    margin-top: -18px;
+}
+.footer-p{
+    text-align: center;
+    padding-top: 30px;
+    color: grey;
+}
+/* css right */
+.container-right{
+    width: 50%;
+    height: 2210px;
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 50px;
+}
+.right-title-h1{
+    padding-left: 25%;
+    padding-top: 30px;
+    font-size: 24px;
+}
+.payment-details{
+    width: 60%;
+    height: 630px;
+    background-color: white;
+    margin-left: 25%;
+    margin-top: 30px;
+    padding-left: 5%;
+    border-radius: 6px;
+}
+.right-box-1{
+    width: 90%;
+    height: 150px;
+}
+.right-box-1:hover .right-title-p1{
+    color: rgb(248, 127, 58);
+}
+.right-box-1:hover{
+    color: rgb(255, 94, 0);
+}
+.right-title-h4{
+    line-height: 26px;
+    padding-top: 20px;
+    font-size: 20px;
+}
+.right-title-p1{
+    color: rgb(102, 102, 102);
+}
+.right-hr{
+    border: 0.5px solid grey;
+    opacity: 50%;
+    margin-top: 20px;
+}
+.right-box-2{
+    width: 90%;
+    height: 100px;
+    margin-top: 20px;
+}
+.fa-calculator{
+    font-size: 26px;
+}
+.fa-user-alt{
+    font-size: 26px;
+}
+.right-title-p2{
+    margin-top: -20px;
+    margin-left: 20px;
+}
+.right-box-3{
+    width: 90%;
+    height: 110px;
+    margin-top: 20px;  
+}
+.right-titel-p3{
+    font-size: 16px;
+    color: rgb(102, 102, 102);
+}
+.item-title-span1{
+    margin-left: 235px;
+}
+.item-title-span2{
+    margin-left: 265px;
+}
+.item-title-span3{
+    margin-left: 270px;
+}
+.item-title-span1, .item-title-span2, .item-title-span3{
+    color: rgb(102, 102, 102);
+    font-size: 16px;
+}
+.right-box-4{
+    width: 90%;
+    height: 40px;
+    margin-top: 20px;
+   
+}
+.right-titel-p4{
+    font-weight: bold;
+}
+.item-span{
+    font-weight: bold;
+    margin-left: 55.5%;
+    color: black;
+}
+.right-box-5{
+    width: 90%;
+    height: 120px;
+    margin-top: 20px;
+    
+}
+.right-title-p5{
+    margin-top: 0px;
+    /* margin-left: 80px; */
+    color: rgb(102, 102, 102);
+}
+.right-title-p5 a{
+    text-decoration: none;
+    color: orangered;
+}
+.right-title-p5 a:hover{
+    color: black;
+}
+.right-lable{
+    font-weight: bold;
+    font-size: 16px;
+}
+b{
+    color: black;
+}
+
+/* ===================================== CSS Registration ================================== */
+.row-header{
+    width: 100%;
+    height: 80px;
+    background-color:white;
+    margin-top: -15px;
+}
+.row-header ul{
+    margin-left: 70%;
+}
+.row-header a{
+    text-decoration: none;
+    float: left;
+    padding-left: 30px;
+    font-size: 16px;
+    color: black;
+    padding-top: 30px;
+    font-weight: bold;
+}
+.row-header a:hover{
+    color: orangered;
+}
+.row-header li{
+    list-style: none;   
+}
+.row-header .country-box{
+    width: 6%;
+    height: 40px;
+    background-color: rgb(247, 247, 247);
+    margin-left: 91%;
+    float: left;
+    margin-top: -30px;
+    border-radius: 40px;
+}
+.country-box .span-img-vn{
+    width: 10%;
+    height: 30px;
+}
+.country-box .span-img-vn img{
+    width: 26%;
+    border-radius: 100px;
+    height: 25px;
+    margin-top: 5px;
+    margin-left: 5px;
+    float: left;
+}
+.span-vnd{
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    float: left;
+    padding: 10px 5px;
+}
+.fa-angle-down{
+    padding-top: 10px;
+    float: left;
+}
+.country-box-small{
+    width: 500%;
+    height: 150px;
+    background-color: white;
+    margin-top: 50px;
+    margin-left: -445%;
+    box-shadow: inset 0 1px 2px 0 rgba(0,0,0,.15)!important;
+    border-radius: 5px;
+}
+.box-small-left{
+    width: calc(50% - 2px);
+    height: 150px;
+    float: left;
+}
+.img-vn{
+    width: 9%;
+    height: 18px;
+    border-radius: 20px;
+    float: left;
+    margin-top: -12px;
+}
+.span-vn{
+    color: black;
+    margin-left: 10px;
+    float: left;
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: -22px;
+    line-height: 40px;
+}
+.img-el{
+    width: 8%;
+    height: 18px;
+    border-radius: 20px;
+    margin-left: 100px;
+}
+.img-hq{
+    width: 8%;
+    height: 18px;
+    border-radius: 20px;
+    margin: 20px -100px;
+}
+.language-a{
+    margin-top: -10px;
+    margin-left: 20px;
+}
+.box-small-right{
+    width: calc(50% - 2px);
+    height: 150px;
+    float: left;
+    margin-left: 3px;
+    border-left: 1px solid rgb(209, 209, 209);
+}
+.a-hover :hover{
+    color: rgb(253, 105, 6);
+}
+.b-dv{
+    float: left;
+    margin-left: -20px;
+    margin-top: -10px;
+}
+.span-dv{
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    float: left;
+    margin-left: 20px;
+    margin-top: -15px;
+    line-height: 30px;
+}
+.row-banner{
+    width: 100%;
+    height: 180px; 
+    background-color: rgb(255, 113, 61);
+    margin-top: -22px;
+}
+.banner-title-h1{
+    padding-top: 50px;
+    padding-left: 100px;
+    font-size: 26px;
+    color: white;
+}
+.banner-title-p{
+    font-size: 20px;
+    color: white;
+    padding-left: 100px;
+}
+/* css home */
+.row-home{
+    background-color: white;
+    height: 700px;
+    width: 100%;
+    position: relative;
+}
+/* left */
+.home-left{
+    width: 57%;
+    height: 500px;
+    position: absolute;
+    margin-left: 100px;
+}
+.home-box1{
+    width: calc(50% - 10px);  
+    height: 220px;
+    float: left;
+    margin-top: 50px;
+}
+.home-box2{
+    width: calc(50% - 10px);
+    height: 220px;
+    margin-left: 51%;
+    margin-top: 50px;
+}
+.home-box3{
+    width: calc(50% - 10px);
+    height: 230px;
+    float: left;
+}
+.home-box4{
+    width: calc(50% - 10px);
+    height: 230px;
+    margin-left: 51%;
+}
+.home-box1 img, .home-box2 img, .home-box3 img, .home-box4 img{
+    width: 12%;
+    height:27%;
+}
+.home-title-h3{
+    font-size: 20px;
+}
+.home-title-p{
+    font-size: 18px;
+    color: grey;
+}
+/* right */
+.home-right{
+    width: 30%;
+    height: 740px;
+    background-color: white;
+    position: absolute;
+    margin-left: 64%;
+    margin-top: -120px;
+    border-radius: 10px;
+    box-shadow: 0 9px 46px 8px rgba(0,0,0,.02), 0 24px 38px 3px rgba(0,0,0,.04), 0 11px 15px -7px rgba(0,0,0,.05);
+}
+.account{
+    width:90%;
+    height: 700px;
+    background-color: white;
+    margin-left: 5%;
+    margin-top: 40px;
+}
+.account-title-h3{
+    font-size: 26px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+.account-title-label{
+    font-size: 18px;
+}
+.account-input-email{
+    width: 95%;
+    height: 50px;
+    border-radius: 50px;
+    padding-left: 20px;
+    font-size: 14px;
+    border: 1px solid #e6e6e6;
+    transition: all .3s;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.fa-envelope-square{
+    font-size: 28px;
+    color: red;
+    margin-left: -40px;
+    padding-top: 50px;
+}
+.account-button-login{
+    height: 55px;
+    width: 100%;
+    border-radius: 50px;
+    background-color: rgb(238, 102, 53);
+    border: 1px solid orangered;
+    color:white;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 25px;
+}
+.account-title-p1{
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.account-title-p1 a{
+    text-decoration: none;
+    color: orangered;
+}
+.account-title-p1 a:hover{
+    color: black;
+}
+.account-title-p2{
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.account-title-p2 a{
+    text-decoration: none;
+    color: orangered;
+}
+.account-title-p2 a:hover{
+    color: black;
+}
+.account-title-p3{
+    text-align: center;
+    font-size: 18px;
+}
+.account-face{
+    width: calc(100% - 2px);
+    height: 55px;
+    border: 1px solid #e6e6e6;
+    border-radius: 50px;
+    margin-top: 50px;
+}
+.account-face span{
+    text-align: center;
+    font-size: 16px;
+    color: grey;
+    margin-left: 35%;
+    padding-top: 30px;
+}
+.account-face p:hover{
+    color: orangered;
+}
+.account-google{
+    width: calc(100% - 2px);
+    height: 55px;
+    border: 1px solid #e6e6e6;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+.account-google p{
+    text-align: center;
+    font-size: 18px;
+    color: grey;
+    padding: 0;
+}
+.account-google p:hover{
+    color: orangered;
+}
+.fa-facebook-square{
+    font-size: 26px;
+    margin-left: 91%;
+}
+.fa-google{
+    font-size: 26px;
+    margin-left: 91%;
+}
+/* ********************************** CSS TRANG REGISTRATION ************************************ */
+.account-sdt{
+    width: 100%;
+    height: 55px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.contact-sdt{
+    width: 29%;
+    height: 55px;
+    background-color: rgb(247, 247, 247);
+    float: left;
+    border-radius: 50px;
+}
+.contact-sdt img{
+    width: 20%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.contact-sdt-span{
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    margin-top: -10px;
+    margin-left: 5px;
+}
+.account-input-sdt{
+    height: 50px;
+    width: 62%;
+    border-radius: 50px;
+    margin-left: 3%;
+    border: 1px solid #e6e6e6;
+    padding-left: 20px;
+    font-size: 14px;
+}
+
+/* ________________________________________________________________________________________________- */
+.row-home1{
+    background-color: white;
+    height: 1130px;
+    width: 100%;
+    position: relative;
+}
+.home-left1{
+    width: 57%;
+    height: 700px;
+    position: absolute;
+    margin-left: 100px;
+}
+.home-box1{
+    width: calc(50% - 10px);  
+    height: 220px;
+    float: left;
+    margin-top: 50px;
+}
+.home-box2{
+    width: calc(50% - 10px);
+    height: 220px;
+    margin-left: 51%;
+    margin-top: 50px;
+}
+.home-box3{
+    width: calc(50% - 10px);
+    height: 230px;
+    float: left;
+}
+.home-box4{
+    width: calc(50% - 10px);
+    height: 230px;
+    margin-left: 51%;
+}
+.home-box1 img, .home-box2 img, .home-box3 img, .home-box4 img{
+    width: 12%;
+    height:27%;
+}
+.home-title-h3{
+    font-size: 20px;
+}
+.home-title-p{
+    font-size: 18px;
+    color: grey;
+}
+.home-right1{
+    width: 30%;
+    height: 1180px;
+    background-color: white;
+    position: absolute;
+    margin-left: 64%;
+    margin-top: -120px;
+    border-radius: 10px;
+    box-shadow: 0 9px 46px 8px rgba(0,0,0,.02), 0 24px 38px 3px rgba(0,0,0,.04), 0 11px 15px -7px rgba(0,0,0,.05);
+}
+.account1{
+    width:90%;
+    height: 1080px;
+    background-color:white;
+    margin-left: 5%;
+    margin-top: 40px;
+}
+
+.account-title-p5{
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: rgb(107, 107, 107);
+}
+.account-title-p5 a{
+    text-decoration: none;
+    color: rgb(83, 83, 83);
+    font-weight: bold;
+}
+.account-title-p5 a:hover{
+    color: orangered;
+}
+.account-title-p2{
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.account-title-p2 a{
+    text-decoration: none;
+    color: orangered;
+}
+.account-title-p2 a:hover{
+    color: black;
+}
+.account-title-p3{
+    text-align: center;
+    font-size: 18px;
+}
+.account-face{
+    width: calc(100% - 2px);
+    height: 55px;
+    border: 1px solid #e6e6e6;
+    border-radius: 50px;
+}
+.account-face span{
+    font-size: 18px;
+    margin-left: 25%;
+    float: left;
+    margin-top: -15px;
+    color: black;
+}
+.account-face span:hover{
+    color: orangered;
+}
+.account-google{
+    width: calc(100% - 2px);
+    height: 55px;
+    border: 1px solid #e6e6e6;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+.account-google span{
+    font-size: 18px;
+    margin-left: 25%;
+    float: left;
+    margin-top: 15px;
+    color: black;
+}
+.account-google span:hover{
+    color: orangered;
+}
+.fa-facebook-square{
+    font-size: 24px;
+    float: left;
+    margin-top: -24px;
+}
+.fa-google{
+    font-size: 24px;
+    float: left;
+    margin-top: -24px;
+}
+.account-input-email1{
+    width: 95%;
+    height: 50px;
+    border-radius: 50px;
+    padding-left: 20px;
+    font-size: 14px;
+    border: 1px solid #e6e6e6;
+    transition: all .3s;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.account-body{
+    width: 100%;
+    height: 140px;
+    margin-top: -20px;
+}
+

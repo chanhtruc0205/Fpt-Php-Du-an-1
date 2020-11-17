@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanh Toán</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+</head>
+<body>
+
+    <div class="top"></div>
+
+    <div class="container">
+        <div class="container-left">
+
+            <div class="row-member">
+                <h1>Đăng nhập và tận hưởng quyền lợi của <br>
+                    Thành viên!</h1>
+                <p class="row-member-p">Đăng ký thành viên Luxstay, trải nghiệm đột phá - Đặt <br>
+                     phòng nhanh hơn, ưu đãi nhiều hơn nữa.</p>
+                <button class="btn-log-in">Đăng nhập ngay</button>
+            </div>
+
+            <!-- thông tin đặt chỗ -->
+            <div class="row-special-information">
+                <h3 class="information-h3">Thông tin đặt chỗ</h3>
+                <p class="information-p"><span>*</span>Số khách</p>
+                <div class="number"><p class="number-p">1 khách</p></div>
+            <h4 class="information-h4">1 đêm tại Vung Tau Milan Homestay 2 - B4-12 Melody Appartment (new)</h4>
+
+            <!-- thời gian nhận trả phòng -->
+            <div class="time">
+                <div class="time-left">
+                    <button class="btn-green"></button>
+                    <p class="check-in">Nhận phòng</p>
+                    <p class="date-check-in">14/11/2020</p>
+                    <p class="received-date">Chủ nhật</p>
+                </div>
+
+                <div class="time-right">
+                    <button class="btn-oranges"></button>
+                    <p class="check">Trả phòng</p>
+                    <p class="pay-day">15/11/2020</p>
+                    <p class="date-check">Thứ hai</p>
+                </div>
+            </div>
+
+            <label class="lable">Trách nhiệm vật chất</label>
+            <p> Khách hàng chịu mọi trách nhiệm thiệt hại về tài sản đã gây ra 
+                tại chỗ ở trong <br> thời gian lưu trú.
+            </p>
+            <label class="lable">Nội quy chỗ ở</label>
+                <p>- Không hút thuốc, không sử dụng các chất kích thích - Không 
+                    mang theo vật nuôi - <br> Không tổ chức tiệc
+                </p>
+        </div>
+
+        <!-- thông tin của bạn -->
+            <div class="row-your-information">
+                <h3 class="information-h3">Thông tin của bạn</h3>
+                <!-- tên khách hàng -->
+                <p class="information-p"><span>*</span>Tên Khách hàng</p>
+                <p class="your-information-p">Họ tên trên CMND/ Thẻ căn cước</p>
+                <input type="text" class="input-name">
+
+                <div class="input-address">
+                    <div class="address-left">
+                        <!-- số điện thoại -->
+                        <p class="information-p"><span>*</span>Số điện thoại</p>
+                        <p class="your-information-p">Mã điện thoại quốc gia</p>
+                        <div class="information-sdt">
+                            <img src="image/vn.png" alt="">
+                            <span class="information-span">+84</span>
+                        </div>
+                        <input type="text" class="input-numner" placeholder="Số điện thoại">
+                    </div>
+
+                    <div class="address-right">
+                        <!-- email -->
+                        <p class="information-p"><span>*</span>Email</p>
+                        <p class="your-information-p">VD: email@example.com</p>
+                        <input type="text" class="input-email">
+                    </div>
+                </div>
+
+                <!-- quốc gia -->
+                <p class="information-p"><span>*</span>Quốc gia cư trú</p>
+                <p class="your-information-p">Nội dung này sẽ được sử dụng cho vẫn đề pháp lý và thức</p>
+                <select name="" id="" class="information-select">
+                    <option value="" >Việt Nam</option>
+                    <option value="">Korea</option>
+                    <option value="">Japan</option>
+                    <option value="">Thailand</option>
+                    <option value="">Philippines</option>
+                    <option value="">Cambodia</option>
+                    <option value="">China</option>
+                    <option value="">Indonesia</option>
+                    <option value="">Laos</option>
+                    <option value="">Malaysia</option>
+                    <option value="">Myanmar</option>
+                </select> <br>
+                <button class="check-box"></button>
+                <p class="check-p">Tôi đặt phòng cho người khác</p>
+
+            </div>
+
+            <!-- thông tin thêm -->
+            <div class="row-more-information">
+                <h3 class="information-h3">Thông tin thêm</h3>
+                <p class="information-p"><span>*</span>Mục đích của chuyến đi này?</p>
+                <select name="" id="" class="information-select">
+                    <option value="" >Dành cho gia đình</option>
+                    <option value="">Tổ chứ tiệc</option>
+                    <option value="">Công tác</option>
+                    <option value="">Khác</option>
+                </select>
+            </div>
+
+            <!-- khuyến mãi -->
+            <div class="row-promotion">
+                <h3 class="information-h3">Mã khuyến mại</h3>
+                <input type="text" class="input-promotion" placeholder="Nhập mã khuyến mãi">
+                <button class="btn-promotion">Áp dụng</button>
+                <h3 class="information-h3">Lux Credit</h3>
+                <label class="lable-promotion">Travel credit hiện tại không thể sử dụng vì hệ thống đang nâng cấp</label>
+                <button class="btn-pay">Thanh toán <i class="angle-double-right"></i></button>
+            </div>
+
+        </div>
+
+        <!-- box thanh toán chi tiết -->
+        <div class="container-right">
+            <h1 class="right-title-h1">
+                Chi tiết đặt phòng</h1>
+            <div class="payment-details">
+
+                <div class="right-box-1">
+                    <h4 class="right-title-h4">Vung Tau Milan Homestay 2 - <br> B4-12 Melody Appartment (new)</h4>
+                    <p class="right-title-p1"><i class="fad fa-map-marker-alt"></i>Vũng Tàu, Bà Rịa Vũng Tàu,<br> VietNam</p>
+                    <hr class="right-hr">
+                </div>
+
+                <div class="right-box-2">
+                    <i class="fal fa-calculator"></i>
+                    <p class="right-title-p2"><strong>1 đêm</strong> · 13/11/2020 - 14/11/2020</p>
+                    <i class="fal fa-user-alt"></i>
+                    <strong>1 người lớn</strong> <br> 
+                    <hr class="right-hr">
+                </div>
+
+                <div class="right-box-3">
+                    <p class="right-titel-p3">Giá thuê 1 đêm <span class="item-title-span1">1,305,000₫</span></p>
+                    <p class="right-titel-p3">Phí dọn dẹp <span class="item-title-span2">150,000₫</span></p>
+                    <p class="right-titel-p3">Phí dịch vụ <span class="item-title-span3">192,000₫</span></p> 
+                    <hr class="right-hr">
+                </div>
+
+                <div class="right-box-4">
+                    <p class="right-titel-p4">Giá thuê 1 đêm <span class="item-span">1,305,000₫</span></p>
+                    <hr class="right-hr">
+                </div>
+
+                <div class="right-box-5">
+                    <label class="right-lable">Chính sách hủy phòng</label> <br>
+                    <p class="right-title-p5"> <b>Linh hoạt :</b> Miễn phí hủy phòng trong vòng 48h sau khi đặt phòng thành công và trước 1 ngày so với thời gian check-in. Sau đó, hủy phòng trước 1 ngày so với thời gian check-in, được hoàn lại 100% tổng số tiền đã trả (trừ phí dịch vụ).<a href="">Chi <br> tiết</a></p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p class="footer-p">© 2020 Luxstay. Bản quyền thuộc về Công ty TNHH Luxstay Việt Nam. Mọi hành vi sao chép đều là phạm pháp nếu không có sự cho phép bằng văn bản của chúng tôi. </p>
+    </div>
+</body>
+</html>
